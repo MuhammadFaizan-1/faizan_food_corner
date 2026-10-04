@@ -1,0 +1,75 @@
+body {
+  background-color: #fff8f2;
+  color: #222;
+}
+.navbar {
+  background-color: #222 !important;
+}
+.brand {
+  color: #ffa733 !important;
+  font-weight: bold;
+  font-size: 15px;
+}
+.nav-link {
+  font-size: 13px;
+}
+.hero {
+  background-color: #fff0e0;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.small-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.btn-orange {
+  background-color: #c84b00;
+  color: white;
+  border: none;
+}
+.btn-orange:hover {
+  background-color: #a03a00;
+  color: white;
+  transform: scale(1.05);
+}
+.rounded-img {
+  border-radius: 20px;
+}
+.food-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.food-card .card-img-top {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.food-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.food-card .card-text {
+  font-size: 13px;
+}
+.price {
+  color: #b34000;
+  font-weight: bold;
+}
+.form-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.form-label,
+.form-control,
+.form-select {
+  font-size: 13px;
+}
+html {
+  scroll-behavior: smooth;
+}
